@@ -27,8 +27,6 @@ AddEventHandler("MIBI:preparespin", function()
     local seed = os.clock()*100
     math.randomseed(seed)
     random[2] = math.random(1, ItemsSize)
-    print(random[2])
-    print(random[1])
     if random[2] == 1 then
         random[2] = ItemsSize +1
     end
