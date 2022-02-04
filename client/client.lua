@@ -2,7 +2,7 @@ local Tunnel = module("vrp","lib/Tunnel")
 local Proxy = module("vrp","lib/Proxy")
 local vRP = Proxy.getInterface("vRP") 
 local vrps = Tunnel.getInterface("vRP")
-local MIBIs = Tunnel.getInterface("MIBI_Casino")
+local MIBIs = Tunnel.getInterface("MIBI_CasinoRoulete")
 
 local modelodaroleta = GetHashKey('vw_prop_vw_luckywheel_02a')
 local basedaroleta = GetHashKey('vw_prop_vw_luckywheel_01a')
