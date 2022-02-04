@@ -4,7 +4,7 @@ local vRP = Proxy.getInterface("vRP")
 local vrps = Tunnel.getInterface("vRP")
 
 MIBIs = {}
-Tunnel.bindInterface("MIBI_Casino", MIBIs)
+Tunnel.bindInterface("MIBI_CasinoRoulete", MIBIs)
 
 
 MIBIs.HasItem = function(source)
